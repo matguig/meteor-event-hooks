@@ -1,5 +1,5 @@
 ## Event Hooks - Meteor Smart Package
-
+##### Forked from [differential:event-hooks](https://atmospherejs.com/differential/event-hooks) - Replacement of Deps dependency for deprecated reasons
 Provides hooks for various user-triggered events.
 
 ### API
@@ -33,8 +33,8 @@ Options are specified on the client side as an argument (object) in the `init` m
 
 ```
 if(Meteor.isClient){
-	Meteor.startup(function(){
-		Hooks.init();
-	});
+    Meteor.startup(function(){
+        Hooks.init();
+    });
 }
 ```

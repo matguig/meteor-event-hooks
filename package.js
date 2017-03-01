@@ -1,7 +1,7 @@
 Package.describe({
-	name: "differential:event-hooks",
-	summary: "Provides hooks for various user-triggered events",
-	git: 'https://github.com/Differential/meteor-event-hooks.git',
+	name: "matguig:event-hooks",
+	summary: "FORKED FROM differential:event-hooks - Provides hooks for various user-triggered events",
+	git: 'https://github.com/matguig/meteor-event-hooks.git',
 	version: '1.5.0'
 });
 
